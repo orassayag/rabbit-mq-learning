@@ -1,0 +1,22 @@
+{
+    "name": "server_consume",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "amqplib": "^0.5.3",
+        "cors": "^2.8.5",
+        "eslint": "^5.1.0",
+        "express": "^4.16.3",
+        "express-async-errors": "^3.0.0"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1"
+    }
+}
