@@ -1,9 +1,9 @@
 // All the const settings in the server application,
-// can be change according to the relevant needs.
+// can be changed according to the relevant needs.
 
 const settings = {
 
-    // This parameter determine the application's port to be established.
+    // This parameter determines the application's port to be established.
     SERVER_PORT: 3003
 };
 
