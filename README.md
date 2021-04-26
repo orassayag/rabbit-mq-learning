@@ -7,7 +7,7 @@ Built in January 2018. Workflow of the RabbitMQ official JavaScript tutorial (ht
 Clone the application to your computer.
 Steps to view the solution:
 1. Open server application on IDE (I use VSCode).
-2. Terminal: npm i
+2. In the terminal: npm i
 
 Happy testing! :)
 
