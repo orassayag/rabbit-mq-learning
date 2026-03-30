@@ -1,7 +1,23 @@
 {
-  "name": "client",
+  "name": "rabbitmq-react-client",
   "version": "0.1.0",
   "private": true,
+  "description": "React frontend client for RabbitMQ learning project - Demonstrates full-stack integration with RabbitMQ message broker",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/rabbit-mq-learning.git"
+  },
+  "keywords": [
+    "rabbitmq",
+    "amqp",
+    "message-queue",
+    "react",
+    "frontend",
+    "full-stack",
+    "nodejs"
+  ],
+  "author": "Or Assayag <orassayag@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@babel/core": "7.1.6",
     "@svgr/webpack": "2.4.1",

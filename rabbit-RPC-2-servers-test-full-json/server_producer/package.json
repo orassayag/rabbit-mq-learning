@@ -2,7 +2,7 @@
     "name": "server_producer",
     "version": "1.0.0",
     "private": false,
-    "description": "",
+    "description": "RabbitMQ RPC client implementation with JSON message formatting - Producer server demonstrating Remote Procedure Call pattern",
     "repository": {
         "type": "git",
         "url": "git://github.com/orassayag/rabbit-mq-learning.git"
@@ -11,9 +11,19 @@
     "scripts": {
         "start": "node index.js"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "rabbitmq",
+        "amqp",
+        "message-queue",
+        "rpc",
+        "producer",
+        "client",
+        "json",
+        "express",
+        "nodejs"
+    ],
+    "author": "Or Assayag <orassayag@gmail.com>",
+    "license": "MIT",
     "dependencies": {
         "amqplib": "^0.5.3",
         "cors": "^2.8.5",
