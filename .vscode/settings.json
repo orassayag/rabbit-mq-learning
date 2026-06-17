@@ -1,16 +1,24 @@
 {
-    "cSpell.words": [
-        "Assayag",
-        "Inlines",
-        "Kubernetes",
-        "Plug'n'Play",
-        "explictly",
-        "hrefs",
-        "minfication",
-        "orassayag",
-        "rabbitmq",
-        "sockjs",
-        "svgr",
-        "todos"
-    ]
+  "cSpell.words": [
+    "Assayag",
+    "explictly",
+    "hrefs",
+    "Inlines",
+    "Kubernetes",
+    "minfication",
+    "orassayag",
+    "Plug'n'Play",
+    "rabbitmq",
+    "Reconnections",
+    "sockjs",
+    "svgr",
+    "todos"
+  ],
+  "cSpell.ignorePaths": [
+    "coverage",
+    "node_modules",
+    "dist",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml"
+  ]
 }

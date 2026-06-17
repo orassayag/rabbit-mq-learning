@@ -11,7 +11,7 @@ sequenceDiagram
     participant E as Express Server
     participant Q as RabbitMQ
     participant S as RPC Server
-    
+
     U->>R: Click Calculate
     R->>E: HTTP POST /calculate
     E->>Q: Send RPC Request (Fibonacci)
@@ -55,12 +55,15 @@ The application will open at http://localhost:3000
 ## Available Scripts
 
 ### `npm start`
+
 Runs the app in development mode.
 
 ### `npm test`
+
 Launches the test runner.
 
 ### `npm run build`
+
 Builds the app for production.
 
 ## Project Structure
@@ -78,13 +81,13 @@ client/
 
 ## Built With
 
-* [React](https://reactjs.org) - Frontend library
-* [Create React App](https://create-react-app.dev) - Development environment
-* [amqplib](http://www.squaremobius.net/amqp.node/) - AMQP client library
+- [React](https://reactjs.org) - Frontend library
+- [Create React App](https://create-react-app.dev) - Development environment
+- [amqplib](http://www.squaremobius.net/amqp.node/) - AMQP client library
 
 ## Author
 
-* **Or Assayag** - [orassayag](https://github.com/orassayag)
+- **Or Assayag** - [orassayag](https://github.com/orassayag)
 
 ## License
 

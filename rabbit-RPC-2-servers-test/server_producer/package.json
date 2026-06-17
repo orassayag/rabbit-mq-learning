@@ -1,36 +1,36 @@
 {
-    "name": "server_producer",
-    "version": "1.0.0",
-    "private": false,
-    "description": "RabbitMQ RPC client implementation - Basic producer server demonstrating Remote Procedure Call pattern",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/orassayag/rabbit-mq-learning.git"
-    },
-    "main": "index.js",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "keywords": [
-        "rabbitmq",
-        "amqp",
-        "message-queue",
-        "rpc",
-        "producer",
-        "client",
-        "express",
-        "nodejs"
-    ],
-    "author": "Or Assayag <orassayag@gmail.com>",
-    "license": "MIT",
-    "dependencies": {
-        "amqplib": "^0.5.3",
-        "cors": "^2.8.5",
-        "eslint": "^5.1.0",
-        "express": "^4.16.3",
-        "express-async-errors": "^3.0.0"
-    },
-    "devDependencies": {
-        "babel-eslint": "^10.0.1"
-    }
+  "name": "server_producer",
+  "version": "1.0.0",
+  "private": false,
+  "description": "RabbitMQ RPC client implementation - Basic producer server demonstrating Remote Procedure Call pattern",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orassayag/rabbit-mq-learning.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "rabbitmq",
+    "amqp",
+    "message-queue",
+    "rpc",
+    "producer",
+    "client",
+    "express",
+    "nodejs"
+  ],
+  "author": "Or Assayag <orassayag@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "cors": "^2.8.5",
+    "eslint": "^5.1.0",
+    "express": "^4.16.3",
+    "express-async-errors": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1"
+  }
 }
